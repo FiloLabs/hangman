@@ -8,7 +8,7 @@ You can also install from the [install.py](https://github.com/FiloLabs/hangman/b
 ### Linux
 It's highly recommended to download the [install.py](https://github.com/FiloLabs/hangman/blob/master/install.py) file and run it with python3 install.py (DON'T USE SUDO!).
 
-> Yes, there is an [install](https://github.com/FiloLabs/hangman/raw/master/Linux/install) file, but if you do run it, you absolutely have to make sure that you select 'Run in terminal'; if you merely run the program it won't do anything (It will send a message you can't see, and wait for confirmation :/)
+> Yes, there is an [install](https://github.com/FiloLabs/hangman/raw/master/Linux/install) file, but if you do run it, you absolutely have to make sure that you select 'Run in terminal'; if you merely run the program it won't do anything (It will send a message you can't see, and wait for confirmation -_- )
 
 Here's a handy command to download the install.py file to the desktop and then run it:
 `cd ~/Desktop && curl -LJO https://github.com/FiloLabs/hangman/raw/master/install.py && clear && python3 install.py`
