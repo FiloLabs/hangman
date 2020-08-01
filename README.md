@@ -1,2 +1,14 @@
-# hangman
+# Hangman
 A program i wrote in python, and then made an installer and whatnot
+## Installing
+### Windows
+To install on Windows, it's recommended that you just download the [Installer](https://github.com/FiloLabs/hangman/raw/master/Windows/hangman_installer.exe) file.
+However, if you for some reason prefer to download a standalone exe (no shortcuts/start menu entries) you can do that also.
+You can also install from the [install.py](https://github.com/FiloLabs/hangman/blob/master/install.py) file.
+### Linux
+It's highly recommended to download the [install.py](https://github.com/FiloLabs/hangman/blob/master/install.py) file and run it with python3 install.py (DON'T USE SUDO!).
+
+> Yes, there is an [install](https://github.com/FiloLabs/hangman/raw/master/Linux/install) file, but if you do run it, you absolutely have to make sure that you select 'Run in terminal'; if you merely run the program it won't do anything (It will send a message you can't see, and wait for confirmation :/)
+
+Here's a handy command to download the install.py file to the desktop and then run it:
+`cd ~/Desktop && curl -LJO https://github.com/FiloLabs/hangman/raw/master/install.py && clear && python3 install.py`
