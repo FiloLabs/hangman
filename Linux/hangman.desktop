@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Hangman
+Exec=x-terminal-emulator -e '~/Games/jvadair/Hangman'
+Terminal=true
+Type=Application
+Icon=/usr/share/icons/jvaico.png
