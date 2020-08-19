@@ -1,5 +1,7 @@
 # Hangman
-A program i wrote in python, and then made an installer and whatnot
+A cli program i wrote in python, and then made an installer and whatnot
+## About
+This project was made as a way to learn some basic Python
 ## Installing
 ### Windows
 To install on Windows, it's recommended that you just download the [Installer](https://github.com/FiloLabs/hangman/raw/master/Windows/hangman_installer.exe) file.
