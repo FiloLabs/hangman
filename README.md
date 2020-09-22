@@ -15,6 +15,5 @@ It's highly recommended to download the [install.py](https://github.com/FiloLabs
 Here's a handy command to download the install.py file to the desktop and then run it:
 `cd ~/Desktop && curl -LJO https://github.com/FiloLabs/hangman/raw/master/install.py && clear && python3 install.py`
 
-P.S. jvadair is me - I'm too lazy to change the title to FiloLabs, plus thats longer and wouldn't neccessarily fit as ascii on the intro screen. And I just didn't think of it at the time.
 ### Run online
 The game is meant to be installed and played offline, however, thanks to some random online tool I found, you can now also play it in your web browser. Simply click [here](https://filolabs.github.io/hangman)
