@@ -16,4 +16,4 @@ Here's a handy command to download the install.py file to the desktop and then r
 `cd ~/Desktop && curl -LJO https://github.com/FiloLabs/hangman/raw/master/install.py && clear && python3 install.py`
 
 ### Run online
-The game is meant to be installed and played offline, however, thanks to some random online tool I found, you can now also play it in your web browser. Simply click [here](https://filolabs.github.io/hangman)
+The game is meant to be installed and played offline, however, thanks to some random online tool I found, you can now also play it in your web browser. Simply click [here](https://hangman.jvadair.repl.run)
