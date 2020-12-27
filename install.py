@@ -59,7 +59,7 @@ else:
     if not os.path.exists('Hangman'):
         os.makedirs('Hangman')
     os.chdir('Hangman')
-    if 'arm' in os.uname():
+    if 'arm' in os.uname().machine:
         os.system('curl -LJo hangman https://github.com/FiloLabs/hangman/raw/master/Linux/hangman_arm')
     else:
         os.system('curl -LJo hangman https://github.com/FiloLabs/hangman/raw/master/Linux/hangman')
