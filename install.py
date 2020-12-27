@@ -59,7 +59,10 @@ else:
     if not os.path.exists('Hangman'):
         os.makedirs('Hangman')
     os.chdir('Hangman')
-    os.system('curl -LJo hangman https://github.com/FiloLabs/hangman/raw/master/Linux/hangman')
+    if 'arm' in os.uname():
+        os.system('curl -LJo hangman https://github.com/FiloLabs/hangman/raw/master/Linux/hangman_arm')
+    else:
+        os.system('curl -LJo hangman https://github.com/FiloLabs/hangman/raw/master/Linux/hangman')
     os.system('x-terminal-emulator -e "sudo chown ' + userpath[6:]+ ' hangman && sudo chmod 770 hangman"')
     pth = '/usr/share/applications'
     while True:
